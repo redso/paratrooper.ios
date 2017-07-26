@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		AE5157D6FBB270E94F26129D /* Pods_Paratrooper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45504B44867D4DDE09987D22 /* Pods_Paratrooper_Example.framework */; };
+		CC9D81181F28A3C000CFB503 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9D81171F28A3C000CFB503 /* Config.swift */; };
 		F8917D2CDF41FA5A9B8FAD3D /* Pods_Paratrooper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A03FFB4C0E0AEC275F89495 /* Pods_Paratrooper_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,12 +42,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6A03FFB4C0E0AEC275F89495 /* Pods_Paratrooper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paratrooper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8237559AFB65A999436FD9EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		87857407078A1190C19A27B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8237559AFB65A999436FD9EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		87857407078A1190C19A27B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BF433D21DFA2F0427FF92620 /* Pods-Paratrooper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paratrooper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paratrooper_Example/Pods-Paratrooper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CC9D81171F28A3C000CFB503 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		E28E84097EB69419A625423C /* Pods-Paratrooper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paratrooper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paratrooper_Tests/Pods-Paratrooper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC7370584D3D62B9674013A1 /* Pods-Paratrooper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paratrooper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paratrooper_Example/Pods-Paratrooper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F90DD53FFAF3E54E21884996 /* Paratrooper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Paratrooper.podspec; path = ../Paratrooper.podspec; sourceTree = "<group>"; };
+		F90DD53FFAF3E54E21884996 /* Paratrooper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Paratrooper.podspec; path = ../Paratrooper.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for Paratrooper */ = {
 			isa = PBXGroup;
 			children = (
+				CC9D81161F28A34600CFB503 /* Configurations */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -146,6 +149,14 @@
 				6A03FFB4C0E0AEC275F89495 /* Pods_Paratrooper_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC9D81161F28A34600CFB503 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D81171F28A3C000CFB503 /* Config.swift */,
+			);
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 		FDAA9A9CBD300AE49ECC3B7F /* Pods */ = {
@@ -363,6 +374,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				CC9D81181F28A3C000CFB503 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,22 @@
+{
+  "name": "Paratrooper",
+  "version": "0.1.0",
+  "summary": "A short description of Paratrooper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Edwin Kwok/Paratrooper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Edwin Kwok": "edwinkcw@redso.com.hk"
+  },
+  "source": {
+    "git": "https://github.com/Edwin Kwok/Paratrooper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Paratrooper/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_Paratrooper_Example {
+  umbrella header "Pods-Paratrooper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

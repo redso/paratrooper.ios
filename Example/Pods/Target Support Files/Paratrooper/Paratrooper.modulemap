@@ -1,0 +1,6 @@
+framework module Paratrooper {
+  umbrella header "Paratrooper-umbrella.h"
+
+  export *
+  module * { export * }
+}

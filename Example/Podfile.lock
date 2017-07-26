@@ -1,0 +1,16 @@
+PODS:
+  - Paratrooper (0.1.0)
+
+DEPENDENCIES:
+  - Paratrooper (from `../`)
+
+EXTERNAL SOURCES:
+  Paratrooper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Paratrooper: 361de0985189dc043a2d1fceef5575aa560c7d47
+
+PODFILE CHECKSUM: d3aa860d33075e7b0d06122a03d7b2251f2d7f45
+
+COCOAPODS: 1.2.1
